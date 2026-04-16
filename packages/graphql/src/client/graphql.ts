@@ -4024,6 +4024,8 @@ export enum UserPermission {
   AccessBookClub = 'ACCESS_BOOK_CLUB',
   /** Grant access to the koreader sync feature */
   AccessKoreaderSync = 'ACCESS_KOREADER_SYNC',
+  /** Grant access to the kobo sync feature */
+  AccessKoboSync = 'ACCESS_KOBO_SYNC',
   /** Grant access to access the smart list feature. This includes the ability to create and edit smart lists */
   AccessSmartList = 'ACCESS_SMART_LIST',
   /** Grant user access to change **their own** avatar */
