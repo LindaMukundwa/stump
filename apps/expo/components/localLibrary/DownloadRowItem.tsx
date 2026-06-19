@@ -1,3 +1,4 @@
+import { formatBytes } from '@stump/client'
 import { clone, getColor, mix } from 'colorjs.io/fn'
 import { useRouter } from 'expo-router'
 import { SymbolView } from 'expo-symbols'
@@ -10,7 +11,6 @@ import { useShallow } from 'zustand/react/shallow'
 
 import { epubProgress, imageMeta, syncStatus } from '~/db'
 import { COLORS, toHex } from '~/lib/constants'
-import { formatBytes } from '~/lib/format'
 import { useDownload, useTranslate } from '~/lib/hooks'
 import { useColorScheme } from '~/lib/useColorScheme'
 import { usePreferencesStore } from '~/stores'
